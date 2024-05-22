@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: inline;
+}
+body{
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    background-image: url(bgts.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+@media only screen and (max-width: 768px) {
+    body{
+        color: rgb(255, 255, 255);
+        align-items: center;
+        justify-content: center;
+        background-image: url(bgp.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
+
+ul{
+    color: black;
+}
+.container{
+    display: none;
+}
+.calendar{
+    display: flex;
+    margin: 5vh auto;
+    width: 95%;
+    height: 95%;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.sep-calendar{
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2), -3px -3px 10px 0 #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.sep-calendar h1{
+    text-align: center;
+    padding: 1rem;
+    border-color: rgba(1, 1, 1, 10);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.sep-calendar ul{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    list-style: none;
+}
+li{
+    padding: 5px;
+text-align: center;
+border: 1px solid;
+border-color: transparent;
+background-color: rgba(255, 255, 255, .7);
+}
+li:nth-child(7n + 1) {
+    color: rgb(250, 11, 11) !important;
+}
+.prev,
+.prev~li {
+    opacity: 1;
+    color: black;
+}
+.first,
+.first~li {
+    opacity: 1 !important;
+    color: black;
+}
+.last,
+.last~li {
+    opacity: 1 !important;
+    color: black;
+}
+
+.contnov{
+    background-image: url(pic11.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contoct{
+    background-image: url(pic10.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contsept{
+    background-image: url(pic9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contaug{
+    background-image: url(pic8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contjul{
+    background-image: url(pic7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contjun{
+    background-image: url(pic6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contmay{
+    background-image: url(pic5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contapr{
+    background-image: url(pic4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contmar{
+    background-image: url(pic3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contfeb{
+    background-image: url(pic2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contjan{
+    background-image: url(pic1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contdec{
+background-image: url(pic12.jpg);
+background-size: cover;
+background-position: center;
+}
